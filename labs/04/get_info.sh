@@ -17,4 +17,3 @@ printf "\n"
 printf "TASK 3: file with highest number of lines and how many\n"
 wc -l "$DATA_DIR"/*.tsv | sort -n | tail -n 2 | head -n 1
 
-chmod +x get_info.sh
